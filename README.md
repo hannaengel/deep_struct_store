@@ -19,7 +19,7 @@ gem install UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
 
 ## Usage
 
-Declare the dee_struct_store in your model like you would a store column, except replace store with deep_struct_store. i.e. `deep_struct_store :bar`. Then you can access the stored JSON like you would an OpenStruct object. Like Foo.last.bar.key.key_two.value (if bar = { "key" => { "key_two" => "value" })
+Declare the dee_struct_store in your model like you would a store column, except replace store with deep_struct_store. i.e. `deep_struct_store :bar`. Then you can access the stored JSON like you would an OpenStruct object. Like `Foo.last.bar.key.key_two.value` (if `bar = { "key" => { "key_two" => "value" }`)
 
 ## Development
 
