@@ -22,7 +22,7 @@ gem install UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
 Declare the dee_struct_store in your model like you would a store column, except replace store with deep_struct_store. 
 
 ` 
-Model Foo < ApplicationRecord
+class Foo < ApplicationRecord
   deep_struct_store :bar
 end
 `
