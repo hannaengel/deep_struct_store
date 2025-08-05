@@ -9,3 +9,4 @@ gem "irb"
 gem "rake", "~> 13.0"
 
 gem "minitest", "~> 5.16"
+gem 'pry', '~> 0.15.0', group: :test
